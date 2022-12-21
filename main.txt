@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+    ATM atm = new ATM();
+    hesap hesap = new hesap("alican kunt","12345",2000);
+    atm.çalış(hesap);
+        System.out.println("programdan çıkılıyor...");
+    }
+}
